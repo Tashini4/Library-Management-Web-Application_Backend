@@ -1,4 +1,4 @@
-import {NextFunction} from "express";
+import {NextFunction,Request,Response} from "express";
 import * as mongoose from "mongoose";
 import {ApiError} from "../Errors/ApiError";
 
